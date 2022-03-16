@@ -1,0 +1,106 @@
+#intro {
+	background: url(images/section-1.png) 0 485px no-repeat;
+	padding: 0 0 1102px 0;
+	margin: 0 0 0 100px;
+}
+	
+	#intro h1 {
+		font-size: 78px; 
+		color: #c0d8f1;
+		text-transform: uppercase;
+		margin: 0 0 25px 0;
+	}
+		#intro h1 span { 
+			display: block; width: 625px; height: 188px; margin: 8px 0 0 0;
+			background: url(images/line25.png);text-indent: -9999px;
+		}
+		
+	#intro p {
+		width: 850px;
+		font-size: 28px; color: #c0d8f1;
+	}
+		#intro p.btn a {
+			display: block; width: 128px; height: 128px;
+			background: url(images/down-btn.jpg); text-indent: -9999px;
+			float: right; margin: 160px -3px 0 0;
+		}
+
+        #section1 {
+            margin: 0 0 0 100px;
+        }
+            #section1 h2.launched {
+                font-size: 154px; 
+                color: #c0d8f1;
+                text-transform: uppercase;
+                margin: 0 0 15px 0;
+            }
+            #section1 h2.march2009 {
+                width: 858px; height: 398px; margin: -21px 0 30px 0;
+                background: url(images/march-2009.png); text-indent: -9999px;
+            }
+            #section1 p {
+                width: 850px; margin: -25px 0 45px 0;
+                font-size: 37px; line-height: 47px; color: #a7a9ac;
+            }
+            #section1 img {
+                margin: 0 0 45px 0;
+            } 
+            
+            #section1 h2.average {
+                font-size: 82px; 
+                color: #c0d8f1;
+                text-transform: uppercase;
+                margin: 0 0 15px 0;
+            }
+            #section1 dl {
+                overflow: hidden; margin: 0 0 100px 0;
+            }
+                #section1 dl dt {
+                    width: 360px; float: left; clear: left;
+                    font-size: 130px; 
+                    color: #c1e6e9;
+                    text-transform: uppercase;
+                    text-align: right;
+                    margin: 0 0 5px 0;
+                }
+                #section1 dl dd {
+                    float: left;
+                    *float: none; /* Quick and dirty IE7 fix */
+                    font-size: 70px; 
+                    color: #c0d8f1;
+                    text-transform: uppercase;
+                    margin: 43px 0 0 25px;
+                }
+                #section2 {
+                    background: #476079 url(images/swirls.png) 220px 210px no-repeat; padding: 75px 0 50px 100px;
+                }
+                    #section2 h2.total {
+                        font-size: 82px; 
+                        color: #fff;
+                        text-transform: uppercase;
+                        margin: 0 0 2362px 0;
+                        float: left;
+                    }
+                        #section2 h2.total span {
+                            font-size: 55px;
+                        }
+                        #section2 p.btn.total a {
+                            display: block; width: 128px; height: 128px;
+                            background: url(images/down-btn.jpg); text-indent: -9999px;
+                            float: left; margin: -32px 0 0 10px;
+                        }
+                        #section2 h2.categories {
+                            font-size: 82px; 
+                            color: #fff;
+                            text-transform: uppercase;
+                            margin: 0 0 150px 0;
+                        }
+                        #section2 img {
+                            margin: 0 0 150px 0;
+                        }
+                        #section2 p.btn.continue a {
+                            display: block; width: 128px; height: 128px;
+                            background: url(images/down-btn.jpg); text-indent: -9999px;
+                            margin: 0 0 0 415px;
+                        }
+                        

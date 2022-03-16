@@ -1,0 +1,398 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body
+{
+    margin: 0px;
+    background-color:#014282;
+}
+.dashboard
+{
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+/*
+Navigation
+*/
+.dashboard .navigation
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.dashboard .navigation img.Logo
+{
+    width: 50px;
+    height: 50px;
+    /*border-radius: 10px;*/
+}
+.dashboard .navigation img.user
+{
+    width: 50px;
+    height: 50px;
+    /*border-radius: 10px;*/
+}
+.dashboard .navigation div .material-icons-outlined
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #bdb106;
+}
+
+/*
+Main Dashboard
+*/
+/* Search*/
+.dashboard .main .Search form
+{
+    margin-top: 40px;
+    position: relative;
+}
+.dashboard .main .Search
+    {
+        margin-top: 40px;
+    }
+.dashboard .main .Search form input
+{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 10px 10px 60px;
+    border: 1px solid #dadada;
+    background-color: rgba(0 0 0/ 0);
+}
+
+.dashboard .main .Search form span
+{
+    position: absolute;
+    left: 15px;
+    top: 10px; 
+    color: #727272;
+}
+
+.dashboard .main .Search .notifications
+{
+    margin-top: 20px;
+}
+.dashboard .main .Search .notifications span:nth-child(1)
+{
+    margin-right: 15px;
+    position: relative;
+}
+.dashboard .main .Search .notifications span:nth-child(1)::before
+{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: sandybrown;
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+    
+}
+/* My Classes*/
+.dashboard .main .title
+{
+    margin-bottom: 30px;
+}
+.dashboard .main .title h1
+{
+    font-size: 35px;
+    line-height: 0px;
+}
+.dashboard .main .title form
+{
+    margin-top: 40px;
+}
+.dashboard .main .title form label
+{
+    margin-right: 15px;
+    color: #727272;
+    font-size: 16px;
+}
+.dashboard .main .title form select
+{
+    border: none;
+    font-size: 16px;
+    background-color: 0 0 0 / 0;
+}
+.dashboard .main .Course_List .Course h2
+{
+    font-size: 20px;
+    line-height: 0;
+}
+.dashboard .main .Course_List .Course p
+{
+    color: #727272;
+}
+.dashboard .main .Course_List .Course ul
+{
+    list-style: none;
+    position: relative;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.dashboard .main .Course_List .Course ul li
+{
+    position: relative;
+    color: #727272;
+    margin-left: 15px;
+}
+.dashboard .main .Course_List .Course ul li::before
+{
+    content: "\268A";
+    position: absolute;
+    left: -15px;
+    top: -5px;
+}
+.dashboard .main .Course_List .Course .meta img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    border: 4px solid #bdb106;
+}
+.dashboard .main  .Course_List .Course .meta
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.dashboard .main  .Course_List .Course 
+{
+    padding: 20px 20px 20px 60px;
+    background-color: #fff;
+    box-shadow: 1px 1px 40px rgba(0 0 0/ .1);
+    margin-bottom: 20px;
+    border-bottom: 10px;
+    position: relative;
+}
+.dashboard .main  .Course_List .category
+{
+    width: 30px;
+    height: 50px;
+    background-color: rebeccapurple;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    left: 0; 
+}
+.category_color1
+{
+    background-color: rgba(255, 0, 0, 0.253) !important;
+}
+
+.category_color2
+{
+    background-color: tan !important;
+}
+
+.category_color3
+{
+    background-color: teal !important;
+}
+
+.category_color4
+{
+    background-color: goldenrod !important;
+}
+
+.category_color5
+{
+    background-color: skyblue !important;
+}
+/*
+Secondaty Statistic
+*/
+/* Chart*/
+.dashboard .overall_chart .chart
+{
+    background-color: #fff;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.dashboard .overall_chart .chart .complete
+{
+    text-align: center;
+    margin: 40px 0px;
+}
+.dashboard .overall_chart .chart .complete h3
+{
+    
+    justify-content: space-between;
+    display: flex;
+    line-height: 0px;
+}
+.dashboard .overall_chart .chart .complete p
+{
+
+    color: #bdb106;
+}
+/* Recent Classes*/
+.dashboard .overall_chart .recent_classes .listing h2
+{
+    line-height: 0px;
+}
+.dashboard .overall_chart .recent_classes .listing p
+{
+    color: paleturquoise;
+}
+.dashboard .overall_chart .recent_classes .listing 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard .overall_chart .recent_class 
+{
+    background-color: #fff;
+    padding: 15px 15px 15px 60px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.dashboard .overall_chart .recent_class .category
+{
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    position: absolute;
+    left: 10px;
+    margin-top: 20px;
+}
+/*
+Media Query 768PX
+*/
+@media only screen and (min-width: 768px) 
+{
+    /*Dasboard Search*/
+    .dashboard .main .Search
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+    .dashboard .main .Search form
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    section.main .Course_List 
+    {
+      display: flex;
+      flex-wrap: wrap ;
+      justify-content: space-between;
+    }
+    section.main .Course_List .Course
+    {
+        width: 47%;
+    }
+    section.main .Course_List .Course span
+    {
+        margin-top: 15px;  
+    }
+    /*Recent Projects*/
+    section.overall_chart
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        background-color: #fff;
+        padding-top: 70px;
+    }
+    section.overall_chart .chart
+    {
+        width: 40%;
+    }
+    section.overall_chart .recent_class
+    {
+        width: 55%;
+    }
+    section.overall_chart .recent_class .listing span
+    {
+        margin-top: 15px ;
+    }
+}
+@media only screen and (min-width: 1024px)
+{
+    .dashboard .navigation,
+    .dashboard .navigation div span,
+    section.navigation
+    {
+        display: block;
+    }
+    .dashboard .navigation
+    {
+        width: 60px;
+        position: fixed;
+        z-index: 10;
+    }
+    section.main
+    {
+        width: 65%;
+        margin-left: 90px;
+        margin-right: 20%;
+    }
+    section.overall_chart
+    {
+        width: 27%;
+        padding-top: 0px;
+        position: fixed;
+        flex-direction: column;
+        top: 10px;
+        right: 0px;
+        background-color: transparent;
+        overflow-y: scroll;
+        height: 100vh;
+        scrollbar-width: small;
+    }
+
+
+    section.overall_chart .chart
+    {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    section.overall_chart div.recent_class, .listing {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .dashboard .navigation div
+    {
+        margin-top: 19vh;
+        margin-bottom: 19vh;
+
+    }
+    .dashboard .navigation div span
+    {
+        margin-top: 5vh; 
+    }
+}
+@media only screen and(min-width: 1111px)
+{
+    section.main .Course_List .Course
+    {
+        width: 32%;
+    }
+    section.main
+    {
+        width: 65%;
+    }
+} 
+@media only screen and(min-width: 1200px)
+{
+    section.main .overall_chart .recent_class .listing:nth-child(4)
+    {
+      display: none;
+    }
+
+    .overall_chart {
+        flex-direction: column;
+        background-color: red;
+    }
+}

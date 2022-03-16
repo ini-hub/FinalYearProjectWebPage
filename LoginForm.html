@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login Form</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="styleSheet" type="text/css" href="./LoginForm.css">
+	</head>
+	<body>
+        <div class="Login-Form">
+            <h3>Login Form</h3>
+            <div class="inner">
+                <div class="image-holder">
+                    <img class="image1 image-back" src="BABCOCKLOGO.png" alt="image">
+                    <img class="image2 image-back" src="fingerprint.png" alt="image">
+                </div>
+                <form action="LoginForm.php" method="post">
+                    
+                    <!--h5>Are You A registered Student</h5>-->
+                    <div class="form-wrapper">
+                        <!--<p>Matric Number:</p> -->
+                        <input type = "text" placeholder="Matric Number" name="MatricNumber" class="form-control" required/>
+                    </div>
+                    <div class="form-wrapper">
+                        <!--<p>Password:</p> -->
+                        <input type = "password" placeholder="Password" name="password" class="form-control" required/>
+                    </div>
+                    <button class="rounded-borders">
+                        <a href="./LoginForm.php">
+                            <a href="./DashBoard/AMSdashBoard.html">
+                                Login
+                            </a>
+                        </a>
+                    </button>
+                    <div class="non-registered">
+                        <h5>
+                            <a href="./EnrollmentForm.html">
+                                I haven't been registered before
+                            </a>
+                        </h5>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+                    

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id = "msg"></p>
+            <script lang="javascript" type="text/javascript">
+                var userPreference;
+                if(confirm("do you want to save changes") == true)
+                {
+                    userPreference = "Data saved successfully!";
+                }
+                else{
+                    userPreference =" data wasnt saved";
+                }
+                document.getElementById("msg").innerHTML = userPreference;
+            </script>
+    </body>
+</html>
