@@ -6,8 +6,13 @@
 body
 {
     margin: 0px;
-    background-color:#014282;
+    background-color:#f7f7f7;
 }
+
+.Course_List {
+    margin-top: 2rem;
+}
+
 .dashboard
 {
     padding: 0px 15px;
@@ -290,6 +295,7 @@ Media Query 768PX
     section.main .Course_List .Course
     {
         width: 47%;
+        border-radius: 10px;
     }
     section.main .Course_List .Course span
     {

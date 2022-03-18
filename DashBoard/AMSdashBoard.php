@@ -1,3 +1,7 @@
+<?php
+    ob_start();
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +32,7 @@
         <section class="main"> <!--main-->
             <div class="Search"> <!--Search-->
                 <form action="">
-                    <input type="text" name="search" id="search" placeholder="Search Here">
+                    <input type="text" name="search" id="search" placeholder="Search Course">
                     <span class="material-icons-outlined">search</span>
                 </form>
                 <div class="notifications">
@@ -39,7 +43,7 @@
             <div class="Title">
                 <h1> My Dashboard</h1>
                 <form action="#">
-                    <label for="classes"> Sort By</label>
+                    <label for="classes">Filter</label>
                     <select name="classes" id="classes">
                         <option value="Present">Recent Present</option>
                         <option value="Absent">Recent Absent</option>
@@ -141,6 +145,12 @@
         </section><!--overall-->
 
     </div><!--dashboard end-->
-    <script src="./AMSdashBoard.js">        </script>
+    <script src="./AMSdashBoard.js"></script>
+    <script>
+        <?php
+            $id = $_SESSION["reg_id"];
+            echo "alert('Registration ID: $id');";
+        ?>
+    </script>
 </body>
 </html>
